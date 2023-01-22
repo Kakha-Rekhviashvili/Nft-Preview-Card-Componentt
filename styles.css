@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.container {
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #15263f;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 24px;
+  width: 350px;
+}
+
+.mainPhoto {
+  position: relative;
+}
+
+.image .mainImg:hover + .hover-active {
+  display: block;
+}
+
+.photo {
+  position: relative;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.logodiv {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: aqua;
+  opacity: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.logodiv:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bio {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #8bacd9;
+  display: block;
+  max-width: 302px;
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  padding-bottom: -55px;
+}
+
+#creator:hover {
+  color: aqua;
+}
+
+h1 {
+  display: block;
+  width: 302px;
+  color: white;
+  font-weight: 300;
+  padding: 0;
+}
+p {
+  display: inline;
+}
+
+h1 {
+  display: block;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+}
+
+#creator {
+  color: white;
+}
+#creator:hover {
+  color: aqua;
+  cursor: pointer;
+}
